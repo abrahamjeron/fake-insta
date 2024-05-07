@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  font-family: "Open Sans", sans-serif;
+}
+body{
+  overflow: hidden;
+}
+form{
+  position: relative;
+  top: 20px;
+  left: 550px;
+  border: 1px solid rgba(35, 35, 35, 0.132);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+#logo{
+  position: relative;
+  top: 30px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+#username{
+  position: relative;
+  top: 70px;
+  width: 260px;
+  height: 30px;
+  background-color: rgba(244, 244, 244, 0.549);
+  border-radius: 1px;
+  border: 1px solid rgba(35, 35, 35, 0.132);
+}
+#username::placeholder{
+  position: relative;
+  left: 10px;
+  color: rgba(0, 0, 0, 0.719);
+  font-size: 0.7rem;
+}
+
+#password{
+  position: relative;
+  top: 75px;
+  width: 260px;
+  height: 30px;
+  background-color: rgba(244, 244, 244, 0.549);
+  border: 1px solid rgba(35, 35, 35, 0.132);
+}
+#password::placeholder{
+  position: relative;
+  left: 10px;
+  color: rgba(0, 0, 0, 0.719);
+  font-size: 0.7rem;
+}
+#opt{
+  padding-top: 110px;
+}
+button{
+  position: relative;
+  top: 90px;
+  width: 265px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: rgb(90, 161, 249);
+  color: white;
+}
+#forgot_pass{
+  position: relative;
+  bottom: 10px;
+  padding-top: 100px;
+  font-size: 0.8rem;
+  color: rgb(0, 0, 150);
+}
+#fbimg{
+  height: 20px;
+  position: relative;
+  top: 4px;
+  right: 10px;
+}
+#facebook{
+  color: rgb(0, 0, 121);
+  position: relative;
+  top: 100px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+#or{
+  position: relative;
+  top: 120px;
+  font-size: 0.9rem;
+}
+#opt{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 95px;
+  left: 14px;
+
+}
+#opt p{
+  border: 1px solid rgba(35, 35, 35, 0.132);
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#apps{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+}
+h3{
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+#appstore,#playstore{
+  height:50px;
+}
+ul {
+  display: flex;        
+  flex-direction: column; 
+  padding: 10px;           
+  margin: 0;            
+  list-style: none;    
+}
+
+li {
+  display: flex;     
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.626);
+  margin: 10;  
+   
+}
+#padding1{
+  position: relative;
+  left: 290px;
+  bottom: 20px;
+  text-align: center;
+}
+#padding2{
+  position: relative;
+  left: 600px;
+  bottom: 20px;
+}
+#opt a{
+  position: relative;
+  left: 5px;
+  text-decoration: none;
+  color: blueviolet;
+}

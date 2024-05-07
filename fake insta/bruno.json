@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "fake insta",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
